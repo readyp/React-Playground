@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="mb-8 bg-violet-500 p-4 text-white shadow-xl">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex items-center justify-between">
         {/* Navbrad */}
         <Link to={"/"} className="text-2xl font-bold uppercase">
           Recipe App

@@ -21,7 +21,7 @@ function DetailRecipe() {
     );
   }
   return (
-    <div className="container mx-auto space-y-4 rounded border border-black p-4 lg:max-w-6xl">
+    <div className="container mx-auto space-y-4 rounded p-4 md:border md:border-black lg:max-w-6xl">
       <h2 className="text-center text-xl font-bold md:text-4xl">
         {data?.title}
       </h2>
